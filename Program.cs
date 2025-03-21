@@ -24,12 +24,6 @@ namespace OutlookConnection
 
             // Access the default Inbox folder
             MAPIFolder inboxFolder = outlookNamespace.Folders["Личные папки"];
-            /* string inboxFolderID = inboxFolder.EntryID;
-             string hhh1 = inboxFolder.Name;
-             hhh1 = inboxFolder.StoreID;
-             hhh1 = inboxFolder.FullFolderPath;
-             hhh1 = inboxFolder.FolderPath;
-             int ggg1 = inboxFolder.Folders.Count; */
 
 
             MAPIFolder folder = inboxFolder.Folders["Входящие"].Folders["support"]; //.GetFirst();
